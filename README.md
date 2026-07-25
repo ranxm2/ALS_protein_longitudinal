@@ -13,7 +13,6 @@
 * [Analysis Folder Guide](#analysis-folder-guide)
 * [System Requirements](#system-requirements)
 * [Installation Guide](#installation-guide)
-* [Data](#data)
 * [License](#license)
 * [Citation](#citation)
 
