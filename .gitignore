@@ -1,0 +1,60 @@
+# Ignore analysis data
+data/analysis_data/
+
+# Ignore individual figure data
+data/fig_data/individual_data/
+data/fig_data/individual_data/*
+data/
+data/analysis_data/*
+.claude/
+CLAUDE.md
+# Ignore release notes
+RELEASE_NOTES.md
+
+.Rproj.user
+
+.RData
+
+.Rhistory
+
+# Ignore Claude.md
+# CLAUDE.md
+
+# # Ignore analysis results
+# # analysis/04-Phenoconversion_event_prediction/1.Input_visits.Rmd
+# analysis/04-Phenoconversion_event_prediction/1.Input_visits.pdf
+# analysis/04-Phenoconversion_event_prediction/Results/1.Input_visits/
+
+# analysis/05-Phenoconversion_timing_estimation/2.Phenoconversion_timing_estimation_LOOCV.Rmd
+# analysis/05-Phenoconversion_timing_estimation/2.Phenoconversion_timing_estimation_LOOCV.pdf
+# analysis/05-Phenoconversion_timing_estimation/Results/2.Phenoconversion_timing_estimation_LOOCV
+
+
+
+# Ignore everything recursively
+analysis/06-UKB_analyisis/00-Data-prepration/**
+
+# Keep all directories so git can traverse them
+!analysis/06-UKB_analyisis/00-Data-prepration/**/
+
+# Keep any ipynb file anywhere inside
+!analysis/06-UKB_analyisis/00-Data-prepration/**/*.ipynb
+
+!analysis/06-UKB_analyisis/00-Data-prepration/**/*.pdf
+
+analysis/06-UKB_analyisis/02-Protein_Trajectories/Results/3.C9orf72_vs_NoneIdentified/*
+
+# analysis/06-UKB_analyisis/02-Protein_Trajectories/3.C9orf72_vs_NoneIdentified_Trajectories.ipynb
+# analysis/06-UKB_analyisis/02-Protein_Trajectories/3.C9orf72_vs_NoneIdentified_Trajectories.pdf
+
+
+analysis/03-Time_to_Event_Analysis/Results/Cox_model_baseline/km_raw_data/**
+
+
+analysis/06-UKB_analyisis/02-Protein_Trajectories/Results/2.Protein_Trajectories_All/Fig_data/**
+
+
+analysis/06-UKB_analyisis/05-Phenoconversion_timing_estimation/Results/1.Phenoconversion_timing_estimation/result_individual_predictions_df.csv
+
+analysis/.nbconvert/** 
+
