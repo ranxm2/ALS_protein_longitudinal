@@ -243,6 +243,6 @@ See [LICENSE](LICENSE) file for details.
 
 If you use this code or data, please cite our paper:
 
-> Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS. *Nature Medicine* (2026). DOI: [10.1038/s41591-026-04528-x](https://doi.org/10.1038/s41591-026-04528-x)   
+> Ran, X., Wuu, J., Qin, Z.S. et al. Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS. Nat Med (2026). https://doi.org/10.1038/s41591-026-04528-x 
 
 The article is available at <https://www.nature.com/articles/s41591-026-04528-x>.
