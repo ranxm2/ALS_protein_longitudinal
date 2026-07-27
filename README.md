@@ -25,7 +25,7 @@ If you use this code, please cite our paper:
 * [System Requirements](#system-requirements)
 * [Installation Guide](#installation-guide)
 * [License](#license)
-* [Citation](#citation)
+<!-- * [Citation](#citation) -->
 
 
 
