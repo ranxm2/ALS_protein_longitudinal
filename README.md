@@ -2,41 +2,21 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41591--026--04528--x-blue)](https://doi.org/10.1038/s41591-026-04528-x)
 
-![ALS schematic](./figure/ALS-amyotrophic-lateral-sclerosis.png)
+<!-- ![ALS schematic](./figure/ALS-amyotrophic-lateral-sclerosis.png) -->
+<!-- ![Discovery cohort study schema](./figure/ED1-shot.png) -->
 
 ## Contents
 
 
-* [Figures](#figures) (Main · Extended Data · Supplementary)
+
 * [Overview](#overview)
 * [Repo Contents](#repo-contents)
 * [Analysis Folder Guide](#analysis-folder-guide)
+* [Figures](#figures) (Main · Extended Data · Supplementary)
 * [System Requirements](#system-requirements)
 * [Installation Guide](#installation-guide)
 * [License](#license)
 * [Citation](#citation)
-
-
-## Figures
-
-### Main Figures
-
-- **[Figure 1: Plasma markers differential regulation](figure/Fig1/Fig1.R)**
-- **[Figure 2: Longitudinal trajectory of biomarkers](figure/Fig2/Fig2_genaral.R)**
-- **[Figure 3: Time-to-event analysis](figure/Fig3/Fig3.R)**
-- **[Figure 4: Event prediction model performance](figure/Fig4/Fig4.R)**
-- **[Figure 5: UK Biobank replication](figure/Fig5/Fig5.R)**
-
-### Extended Data Figures
-
-- **[Extended Data Figure 1: Patient visit timeline](figure/Supplement_Figure/ED_Fig1.R)**
-- **[Extended Data Figure 2: Protein trajectory atlas](figure/Supplement_Figure/ED_Fig2_Sup_Fig1.R)**
-- **[Extended Data Figure 4: Kaplan–Meier curves for Panel 19 and Panel 15](figure/Supplement_Figure/ED_Fig4.R)**
-
-### Supplementary Figures
-
-- **[Supplementary Figure 1 (panels A–D): Protein trajectories in phenoconverters and pre-phenoconverters](figure/Supplement_Figure/ED_Fig2_Sup_Fig1.R)**
-- **[Supplementary Figure 2: ML model performance (AUC)](figure/Supplement_Figure/Sup_Fig2.R)**
 
 
 
@@ -79,7 +59,7 @@ This study identifies plasma protein biomarkers for ALS and develops predictive 
 
 The `analysis/` directory contains the end-to-end statistical workflow, organized into a discovery cohort and a UK Biobank replication cohort.
 
-### Cohort group definitions
+<!-- ### Cohort group definitions
 
 Participants are assigned to clinical groups by disease stage. Both cohorts share the same stage labels; the UK Biobank replication additionally resolves the pre-manifest window into two stages (`Phenoconverter` and `Pre-hospital`) relative to the hospital diagnosis date.
 
@@ -102,7 +82,7 @@ Participants are assigned to clinical groups by disease stage. Both cohorts shar
 | `Pre-hospital` | Confirmed ALS case, < 2 years before hospital diagnosis |
 | `Clinically manifest ALS` | Confirmed ALS case, after hospital diagnosis |
 
-> Note: `Phenoconverter` and `Pre-hospital` together span the pre-diagnosis window and are pooled in some trajectory/timing analyses.
+> Note: `Phenoconverter` and `Pre-hospital` together span the pre-diagnosis window and are pooled in some trajectory/timing analyses. -->
 
 ### 01-Discovery (R scripts)
 
@@ -131,6 +111,29 @@ Run scripts in numbered order (`01` → `05`).
 | `04_Phenoconversion_Timing_UKB_Horizons.ipynb` | Phenoconversion timing estimation in UKB |
 
 Run notebooks in numbered order, starting with `00-Data-prepration/`.
+
+## Figures
+
+### Main Figures
+
+- **[Figure 1: Plasma markers differential regulation](figure/Fig1/Fig1.R)**
+- **[Figure 2: Longitudinal trajectory of biomarkers](figure/Fig2/Fig2_genaral.R)**
+- **[Figure 3: Time-to-event analysis](figure/Fig3/Fig3.R)**
+- **[Figure 4: Event prediction model performance](figure/Fig4/Fig4.R)**
+- **[Figure 5: UK Biobank replication](figure/Fig5/Fig5.R)**
+
+### Extended Data Figures
+
+- **[Extended Data Figure 1: Patient visit timeline](figure/Supplement_Figure/ED_Fig1.R)**
+- **[Extended Data Figure 2: Protein trajectory atlas](figure/Supplement_Figure/ED_Fig2_Sup_Fig1.R)**
+- **[Extended Data Figure 4: Kaplan–Meier curves for Panel 19 and Panel 15](figure/Supplement_Figure/ED_Fig4.R)**
+
+### Supplementary Figures
+
+- **[Supplementary Figure 1: Protein trajectories in phenoconverters and pre-phenoconverters](figure/Supplement_Figure/ED_Fig2_Sup_Fig1.R)**
+- **[Supplementary Figure 2: ML model performance (AUC)](figure/Supplement_Figure/Sup_Fig2.R)**
+
+
 
 ## System Requirements
 
@@ -240,6 +243,6 @@ See [LICENSE](LICENSE) file for details.
 
 If you use this code or data, please cite our paper:
 
-> Plasma protein biomarkers of phenoconversion to clinically manifest ALS. *Nature Medicine* (2026). DOI: [10.1038/s41591-026-04528-x](https://doi.org/10.1038/s41591-026-04528-x)
+> Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS. *Nature Medicine* (2026). DOI: [10.1038/s41591-026-04528-x](https://doi.org/10.1038/s41591-026-04528-x)   
 
-Once published online, the article will be available at <https://www.nature.com/articles/s41591-026-04528-x>.
+The article is available at <https://www.nature.com/articles/s41591-026-04528-x>.
