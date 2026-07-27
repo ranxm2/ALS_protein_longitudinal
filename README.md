@@ -1,4 +1,4 @@
-# Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS (ALS)
+# Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS
 
 [![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41591--026--04528--x-blue)](https://doi.org/10.1038/s41591-026-04528-x)
 
