@@ -2,6 +2,15 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41591--026--04528--x-blue)](https://doi.org/10.1038/s41591-026-04528-x)
 
+## Citation
+
+If you use this code, please cite our paper:
+
+> Ran, X., Wuu, J., Qin, Z. S., McDermott, M. P., Cooper-Knock, J., Li, Y., Granit, V., Grignon, A.-L., Lin, E., Fernandez, M. C., Colato, D., Carberry, N., Lill, C. M., Piazza, P., Malaspina, A., & Benatar, M. . Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS. Nature Medicine. https://doi.org/10.1038/s41591-026-04528-x
+
+<!-- The article is available at <https://www.nature.com/articles/s41591-026-04528-x>. -->
+
+
 <!-- ![ALS schematic](./figure/ALS-amyotrophic-lateral-sclerosis.png) -->
 <!-- ![Discovery cohort study schema](./figure/ED1-shot.png) -->
 
@@ -239,10 +248,3 @@ install.packages(c('tidyverse', 'arrow', 'OlinkAnalyze', 'lme4', 'lmerTest',
 
 See [LICENSE](LICENSE) file for details.
 
-## Citation
-
-If you use this code or data, please cite our paper:
-
-> Ran, X., Wuu, J., Qin, Z.S. et al. Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS. Nat Med (2026). https://doi.org/10.1038/s41591-026-04528-x 
-
-The article is available at <https://www.nature.com/articles/s41591-026-04528-x>.
